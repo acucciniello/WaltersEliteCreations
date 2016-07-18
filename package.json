@@ -1,0 +1,23 @@
+{
+  "name": "walters-elite-creation",
+  "version": "1.0.0",
+  "description": "A Website displaying tile work and contact information for Walters Elite Creations",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/acucciniello/WaltersEliteCreations.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/acucciniello/WaltersEliteCreations/issues"
+  },
+  "homepage": "https://github.com/acucciniello/WaltersEliteCreations#readme",
+  "dependencies": {
+    "express": "^4.14.0"
+  }
+}
