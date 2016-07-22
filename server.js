@@ -6,18 +6,20 @@ var server = require('http').createServer(app);
 var port = 3000;
 server.listen(port);
 
+app.use(express.static(__dirname + '/public'));
+
 app.get('/', function(req, res){
     res.sendFile(__dirname + '/main.html');
 })
 
 app.get('/About', function(req, res){
-	res.sendFile(__dirname + '/aboutUs.html')
+	res.sendFile(__dirname + '/About/aboutUs.html')
 })
 
 app.get('/Contact', function(req, res){
-	res.sendFile(__dirname + '/contact.html')
+	res.sendFile(__dirname + '/Contact/contact.html')
 })
 
 app.get('/Photos', function(req, res){
-	res.sendFile(__dirname + '/photos.html')
+	res.sendFile(__dirname + '/Photos/photos.html')
 })
