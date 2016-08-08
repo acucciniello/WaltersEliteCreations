@@ -4,7 +4,7 @@ ul {
 	margin: 0;
 	padding: 0;
 	overflow: hidden;
-	background-color: #333;
+	background-color: #1E90FF;
 	text-align: center;
 }
 li {
@@ -22,7 +22,7 @@ li a:hover:not(.active){
 	background-color: #111;
 }
 .active {
-	background-color: #4CAF50
+	background-color: #111
 }
 
 body{
@@ -36,3 +36,4 @@ div.About p{
 	width: 30em;
 	text-align: center;
 }
+
