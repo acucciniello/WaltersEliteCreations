@@ -19,5 +19,9 @@
   "homepage": "https://github.com/acucciniello/WaltersEliteCreations#readme",
   "dependencies": {
     "express": "^4.14.0"
-  }
+  },
+  "engines": {
+      "node":"5.6.0"
+  },
+  "devDependencies": {}
 }
